@@ -84,10 +84,10 @@ graph LR;
 #### User Interaction Flow
 ```mermaid
 graph LR;
-    A[User] -->|Submit Code|> B[Backend];
-    B -->|Run Test Cases|> C[AI API];
-    C -->|Return Results|> B;
-    B -->|Display Feedback|> A;
+    A[User] -->|"Submit Code"| B[Backend];
+    B -->|"Run Test Cases"| C[AI API];
+    C -->|"Return Results"| B;
+    B -->|"Display Feedback"| A;
 ```
 
 ## Feature Specifications
